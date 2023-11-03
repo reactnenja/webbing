@@ -7,6 +7,13 @@
     <title>Inf</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header id="header" class="header">
@@ -45,7 +52,25 @@
                   />
                 </svg>
               </button>
+              <button class="bars-nav" id="navbar-open">
+                <i class="fa-solid fa-bars"></i>
+              </button>
             </div>
+          </div>
+          <div id="navbar-responsive">
+            <button class="xmark-nav" id="navbar-close">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+            <ul class="res__list">
+              <li class="res-item"><a href="#" class="res-link">Home</a></li>
+              <li class="res-item"><a href="#" class="res-link">About</a></li>
+              <li class="res-item"><a href="#" class="res-link">Team</a></li>
+              <li class="res-item"><a href="#" class="res-link">Shop</a></li>
+              <li class="res-item"><a href="#" class="res-link">Pages</a></li>
+              <li class="res-item">
+                <a href="#" class="res-nav-btn">Contact Us</a>
+              </li>
+            </ul>
           </div>
         </div>
       </nav>
@@ -76,5 +101,9 @@
         </div>
       </div>
     </header>
+
+    <!-- script -->
+    <script src="js/main.js"></script>
+    <!-- script -->
   </body>
 </html>

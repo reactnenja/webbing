@@ -22,6 +22,9 @@
 /* ROOT VARIABLE END */
 /* HTML BODY START */
 
+html {
+  scroll-behavior: smooth;
+}
 body {
   font-family: "Orbitron";
 }
@@ -32,6 +35,7 @@ body {
 }
 .light {
   background-color: var(--light);
+  color: #000000;
 }
 
 .container {
