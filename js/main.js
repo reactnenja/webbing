@@ -9,3 +9,13 @@ function closeNavbar() {
 
 document.getElementById("navbar-open").addEventListener("click", openNavbar);
 document.getElementById("navbar-close").addEventListener("click", closeNavbar);
+
+// Wait for document to load
+document.addEventListener("DOMContentLoaded", function (event) {
+  document.documentElement.setAttribute("data-theme", "dark");
+});
+
+function darkMode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+}

@@ -27,17 +27,29 @@ html {
 }
 body {
   font-family: "Orbitron";
+  transition: all 1.4s;
 }
 
 /* HTML BODY END */
-.dark {
-  background-color: var(--dark);
-}
-.light {
-  background-color: var(--light);
-  color: #000000;
-}
+/* dark mode */
 
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.dark-mode > .header {
+  background: black;
+  color: white;
+}
+.dark-mode > .btn-bg-blue {
+  background-color: #57b8ff;
+  color: red;
+}
+.dark-mode > .header > .navbar {
+  background: rgba(1, 255, 48, 0.438);
+  backdrop-filter: blur(10px);
+}
+/* dark mode */
 .container {
   width: 100%;
   max-width: 1360px;
